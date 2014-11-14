@@ -1,0 +1,157 @@
+header {
+   position: relative;
+   height: 700px;
+   min-height: 500px;
+   width: 100%;
+   background: white;
+   text-align: center;
+   overflow: hidden;
+}
+
+header h1 {
+  font-family:'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 32pt;
+  padding-bottom: none;
+}
+
+header h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  color: #222;
+  background: ;
+}
+
+#container {
+  margin: 2em auto; /* 32px auto */
+  width: 960px;
+}
+
+nav {
+  text-align: center;
+}
+
+a,
+a:visited {
+  color: #a0bcdf;
+}
+
+nav ul {
+  padding: 1em 0;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 16px;
+
+}
+
+
+section#quote
+  { font-family:'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    color: #a0bcdf;
+  }
+
+
+#content {
+  width:600px;
+}
+
+#content section {
+  padding: 1em 0;
+}
+
+section {
+  border-top: 1px dotted #000;
+}
+
+section h3 {
+  float: left;
+  width: 25%;
+  color: #a0bcdf;
+
+}
+
+article#um {
+  margin: 1.35em 0;
+  margin-left: 26%;
+}
+
+article#school {
+  margin: 1.35em 0;
+  margin-left: 26%;
+}
+article#art {
+  margin: 1.35em 0;
+  margin-left: 19%;
+}
+
+article#art ul li{
+  list-style: none;
+}
+
+article#awards{
+  margin: 1.35em 0;
+  margin-left: 20%;
+}
+
+article#awards ul li{
+  list-style: circle;
+}
+
+article h4,
+article p {
+  margin: 10px;
+}
+
+#things {
+  width:960px;
+}
+#skills p {
+  position: relative;
+  height: 200px;
+  display: inline-block;
+
+}
+
+#skills img {
+  border: 1px solid #ccc;
+  padding: 3px;
+  width: 70px;
+  height: 70px;
+  float: left;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+p:nth-child(2n) img {
+  margin-top: 100px;
+}
+
+
+aside{
+  float:right;
+  border: 1px dotted #333;
+  margin: 1em;
+  padding: 1em;
+  width: 236px;
+  text-align: right;
+}
+
+footer {
+  border-top: 1px solid #333;
+  clear: left;
+}
